@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.input-wrapper h2, .input-wrapper p, .input-style, input[type="text"]::placeholder, .button-in {
+  font-family: "Roboto", sans-serif;
+}
+
+.input-inline, .input-wrapper p, .button-in {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-wrapper p, .input-wrapper-item {
+  margin-bottom: 40px;
+}
+
+input:active, input:focus, input:hover {
+  border: 1px solid #159822;
+}
+
+.input-wrapper h2, .input-wrapper p, .input-style, input[type="text"]::placeholder, .button-in {
+  font-family: "Roboto", sans-serif;
+}
+
+.input-inline, .input-wrapper p, .button-in {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-wrapper p, .input-wrapper-item {
+  margin-bottom: 40px;
+}
+
+input:active, input:focus, input:hover {
+  border: 1px solid #159822;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-ExtraBold.ttf");
+}
+
+.input-inline {
+  max-width: 408px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #159822;
+}
+
+.input-wrapper {
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.input-wrapper h2 {
+  padding-top: 60px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.input-wrapper p {
+  max-width: 740px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.input-wrapper-item {
+  display: flex;
+  justify-content: center;
+}
+
+.input-style {
+  min-width: 240px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #8a8a8a;
+  box-sizing: border-box;
+  background: #ffffff;
+  font-size: 16px;
+  color: #000000;
+}
+
+input[type="text"]::placeholder {
+  padding: 0;
+  font-size: 16px;
+  color: #8a8a8a;
+  text-align: left;
+}
+
+.button-input {
+  margin-bottom: 0;
+  padding-bottom: 60px;
+}
+
+.button-in {
+  max-width: 173px;
+  display: block;
+  padding: 8px 13px;
+  color: #ffffff;
+  background-color: #159822;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #159822;
+  cursor: pointer;
+}
+
+.button-in:hover {
+  background-color: #106e19;
+}
+
+.input-w + .input-w {
+  margin-left: 24px;
+}
+
+@media (max-width: 1053px) {
+  .input-wrapper h2 {
+    padding: 32px 16px 0 16px;
+  }
+  .input-wrapper p {
+    padding: 0 16px;
+  }
+  .input-wrapper-item {
+    margin-bottom: 0;
+  }
+  .input-style {
+    min-width: 320px;
+    margin-bottom: 32px;
+  }
+  .input-w + .input-w {
+    margin-left: 0;
+  }
+  .input-wrapper-item {
+    display: inline-block;
+  }
+}

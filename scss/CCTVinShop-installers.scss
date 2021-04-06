@@ -1,0 +1,563 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+// @import "installation-mixin.scss";
+// .background-wrapper-CCTVinShop {
+//   @include background-wrapper-banner-head;
+//   background-image: url("../img/CCTVinShop-banner-back.jpg");
+// }
+
+.title-text-banner-CCTVinShop {
+  @include text-banner-head;
+}
+
+.background-wrapper-position-CCTVinShop {
+  @include content-wrapper;
+}
+
+.line-separator-CCTV-inst-servs {
+  @include line-separator;
+  margin-bottom: 46px;
+}
+
+.wrapper-blok-icon-gray-CCTV-inst-servs {
+  @include content-wrapper;
+  margin-bottom: 85px;
+}
+
+.blok-text-CCTV-inst-servs {
+  max-width: 721px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blok-text-CCTV-inst-servs > p {
+  @include text-main;
+  margin: 0 0 36px 0;
+}
+
+.blok-icon-gray-text-main-CCTV-inst-servs {
+  @include text-uppercase-bolt;
+  margin-bottom: 201px;
+  margin-top: 0;
+}
+
+.blok-icon-gray-text-CCTV-inst-servs {
+  @include box-img-grey;
+  @include text-main;
+}
+
+.blok-icon-gray-wrapper-CCTV-inst-servs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blok-icon-gray-CCTV-inst-servs {
+  position: absolute;
+  top: -153px;
+}
+
+.blok-icon-gray-position-CCTV-inst-servs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+// .blok-icon-gray-wrapper + .blok-icon-gray-wrapper {
+//   margin-right: 10%;
+// }
+.professional-installation-through-bl-wrap-CCTV-inst-servs {
+  margin-bottom: 40px;
+  padding-top: 139px;
+  background-image: url("../img/adjuster-CCTV-shop.jpg");
+  background-position: center;
+  background-color: #859289;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.professional-installation-text-heading-CCTV-inst-servs {
+  @include text-uppercase-bolt;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.professional-installation-text-position-CCTV-inst-servs > p {
+  @include text-main;
+  max-width: 721px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.professional-installation-text-position-CCTV-inst-servs {
+  @include content-wrapper;
+  padding-bottom: 139px;
+}
+
+.btn-installation-CCTV-inst-servs {
+  @include btn-installation;
+  margin: 0;
+}
+
+.btn-installation-CCTV-inst-servs > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-installation-CCTV-inst-servs:hover {
+  background-color: #287231;
+}
+
+.complete-wrapper-CCTV-inst-servs {
+  @include content-wrapper;
+}
+
+.blok-text-description-CCTV-inst-servs {
+  @include text-main;
+  max-width: 1013px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.blok-text-complete-CCTV-inst-servs > p {
+  @include text-main;
+  margin-bottom: 40px;
+  max-width: 1013px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.complete-wrapper-CCTV-inst-servs > h4 {
+  @include text-uppercase-bolt;
+  max-width: 645px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 31px;
+}
+
+.complete-img-wrapper-CCTV-inst-servs {
+  max-width: 683px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.key-areas-wrapper-CCTV-inst-servs {
+  @include content-wrapper;
+  margin-bottom: 79px;
+}
+
+.key-areas-text-main-CCTV-inst-servs {
+  @include text-uppercase-bolt;
+  margin-bottom: 194px;
+}
+
+.blok-icon-white-text-CCTV-inst-servs {
+  @include box-img-white;
+  @include text-main;
+}
+
+.blok-icon-white-wrapper-CCTV-inst-servs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blok-icon-white-position-CCTV-inst-servs {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.installation-price-wrapper-CCTV-inst-servs {
+  @include content-wrapper;
+  margin-bottom: 40px;
+}
+
+.complete-price-wrapper-CCTV-inst-servs {
+  @include box-shadow;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.complete-price-img-CCTV-inst-servs {
+  display: flex;
+  position: relative;
+}
+
+.complete-price-img-position-CCTV-inst-servs {
+  position: absolute;
+  left: 27px;
+  top: -50px;
+}
+
+.complete-price-img-text-CCTV-inst-servs {
+  margin-bottom: 27px;
+  padding-left: 256px;
+}
+
+.complete-price-img-text-bolt-CCTV-inst-servs {
+  @include text-main-bolt;
+  margin-bottom: 10px;
+  padding-top: 34px;
+  text-align: left;
+}
+
+.complete-price-img-text-gray-CCTV-inst-servs {
+  @include text-price-gray;
+}
+
+.complete-price-CCTV-inst-servs {
+  @include text-price-green;
+}
+
+.complete-price-CCTV-inst-servs > span {
+  color: #000000;
+}
+
+.line-green-CCTV-inst-servs {
+  margin-bottom: 24px;
+  border-top: 1px solid #159822;
+}
+
+.color-point-CCTV-inst-servs {
+  color: #159822;
+}
+
+.complete-price-wrapper-CCTV-inst-servs > p {
+  @include text-main;
+  padding-bottom: 16px;
+}
+
+.green-elements-CCTV-inst-servs {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  padding-top: 17px;
+}
+
+.installation-work-wrapper-CCTV-inst-servs {
+  display: flex;
+  margin-bottom: 7px;
+  border-bottom: 1px solid #c4c4c4;
+  align-items: center;
+}
+
+.installation-work-img-CCTV-inst-servs {
+  margin-right: 40px;
+  margin-bottom: 7px;
+}
+
+.installation-work-connection-CCTV-inst-servs {
+  @include box-shadow;
+  padding: 13px 16px;
+}
+
+// .installation-work-connection + .installation-work-connection {
+//   margin-right: 16px;
+// }
+.list-style-CCTV-inst-servs {
+  @include text-main;
+  list-style: none;
+  text-align: left;
+}
+
+.installation-work-connection-wrapper-CCTV-inst-servs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-bottom: 27px;
+}
+
+.installation-price-wrapper-CCTV-inst-servs > p {
+  @include text-main;
+}
+
+.scheme-wrapper-CCTV-inst-servs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scheme-wrapper-CCTV-inst-servs > h4 {
+  @include text-uppercase-bolt;
+  max-width: 350px;
+}
+
+// .input-inlain {
+//   border-bottom: 2px solid #159822;
+//   max-width: 408px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-bottom: 12px;
+// }
+
+// .input-wrapper {
+//   text-align: center;
+//   background-color: #f8f8f8;
+// }
+
+// .input-wrapper h2 {
+//   @include text;
+//   font-size: 20px;
+//   margin-bottom: 12px;
+//   font-weight: 500;
+//   padding-top: 60px;
+// }
+
+// .input-wrapper p {
+//   @include text;
+//   font-size: 16px;
+//   margin-bottom: 40px;
+//   font-weight: 400;
+//   max-width: 740px;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+// .input-wrapper-item {
+//   display: flex;
+//   justify-content: center;
+//   margin-bottom: 40px;
+// }
+
+// .input-style {
+//   border-radius: 8px;
+//   border: 1px solid #8a8a8a;
+//   box-sizing: border-box;
+//   background: #ffffff;
+//   padding: 12px 0;
+//   box-sizing: border-box;
+//   min-width: 240px;
+// }
+
+// input[type="text"]::placeholder {
+//   @include text;
+//   font-size: 16px;
+//   color: #8a8a8a;
+//   text-align: left;
+//   padding: 0 16px;
+// }
+
+// input:active {
+//   border: 1px solid #159822;
+// }
+
+// input:focus {
+//   border: 1px solid #159822;
+// }
+
+// input:hover {
+//   border: 1px solid #159822;
+// }
+
+// .button-input {
+//   padding-bottom: 60px;
+//   margin-bottom: 0;
+// }
+
+// .button-in {
+//   @include btn-installation;
+// }
+
+// .button-wrapper {
+//   position: relative;
+// }
+
+// .input-w + .input-w {
+//   margin-left: 24px;
+// }
+
+.complete-img-wrapper-CCTV-inst-servs > img {
+  position: relative;
+}
+
+// mobil
+@media (max-width: 1460px) {
+  .scheme-wrapper-CCTV-inst-servs {
+    padding: 0 16px;
+  }
+  .complete-img-wrapper-CCTV-inst-servs {
+    text-align: center;
+  }
+  .professional-installation-text-position-CCTV-inst-servs {
+    padding: 0 16px 139px 16px;
+  }
+  .background-wrapper-position-CCTVinShop {
+    padding: 0 16px;
+  }
+  .blok-icon-white-position-CCTV-inst-servs {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 16px;
+  }
+  .blok-icon-white-wrapper-CCTV-inst-servs {
+    margin-top: 194px;
+  }
+  .blok-icon-gray-position-CCTV-inst-servs {
+    padding-left: 16px;
+    margin-right: 16px;
+  }
+  .blok-text-CCTV-inst-servs {
+    padding: 0 16px;
+  }
+  .key-areas-text-main-CCTV-inst-servs {
+    margin-bottom: 0;
+  }
+  .green-elements {
+  }
+  .input-wrapper {
+  }
+}
+
+@media (max-width: 1180px) {
+  .scheme-wrapper-CCTV-inst-servs > img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1053px) {
+  .blok-icon-gray-position-CCTV-inst-servs {
+    justify-content: space-around;
+  }
+  .blok-icon-gray-text-main-CCTV-inst-servs {
+    padding: 0 16px;
+    margin-bottom: 0;
+  }
+  .complete-price-img-CCTV-inst-servs {
+    justify-content: center;
+  }
+  .input-wrapper-item {
+    margin-bottom: 0;
+  }
+  .input-style {
+    min-width: 320px;
+    margin-bottom: 32px;
+  }
+  .input-w + .input-w {
+    margin-left: 0;
+  }
+  .input-wrapper-item {
+    display: inline-block;
+  }
+  .blok-icon-gray-wrapper-CCTV-inst-servs {
+    margin-top: 201px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .green-elements-CCTV-inst-servs {
+    width: 60%;
+  }
+  .blok-text-description-CCTV-inst-servs {
+    padding: 0 16px;
+  }
+  .blok-text-complete-CCTV-inst-servs > p {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .input-wrapper-CCTV-inst-servs p {
+    padding: 0 16px;
+  }
+  .title-text-banner-CCTVinShop {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 730px) {
+  .complete-price-img-text-bolt-CCTV-inst-servs {
+    font-size: 18px;
+    text-align: left;
+  }
+  .scheme-text-CCTV-inst-servs {
+    position: relative;
+    top: auto;
+  }
+  .green-elements-CCTV-inst-servs {
+    display: none;
+  }
+  .installation-work-connection-CCTV-inst-servs {
+    margin-bottom: 20px;
+  }
+  .complete-price-wrapper-CCTV-inst-servs {
+    margin-bottom: 20px;
+  }
+  .installation-work-connection-wrapper-CCTV-inst-servs {
+    display: inline-block;
+  }
+  .complete-price-img-position-CCTV-inst-servs {
+    display: flex;
+    left: auto;
+    top: -150px;
+  }
+  .complete-price-im-CCTV-inst-servsg {
+    justify-content: center;
+  }
+  .key-areas-wrapper-CCTV-inst-servs {
+    margin-bottom: 170px;
+  }
+  .title-text-banner-CCTVinShop {
+    max-width: 60%;
+  }
+  .complete-price-img-text-CCTV-inst-servs {
+    padding: 0 16px;
+    text-align: center;
+  }
+  .complete-price-img-text-CCTV-inst-servs > p {
+    text-align: center;
+  }
+  .installation-price-wrapper-CCTV-inst-servs {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title-text-banner-CCTVinShop {
+    max-width: 70%;
+  }
+  .blok-icon-gray-position-CCTV-inst-servs {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 530px) {
+  .blok-icon-white-position-CCTV-inst-servs {
+    justify-content: center;
+  }
+  .title-text-banner-CCTVinShop {
+    max-width: 80%;
+  }
+  .key-areas-text-main-CCTV-inst-servs {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 460px) {
+  .complete-img-wrapper-CCTV-inst-servs > img {
+    width: 49%;
+  }
+  .title-text-banner-CCTVinShop {
+    max-width: 100%;
+    margin-right: 16px;
+    font-size: 28px;
+  }
+}
