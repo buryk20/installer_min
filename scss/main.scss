@@ -3,3 +3,32 @@
 @import "_banner_top.scss";
 @import "_input_form.scss";
 @import "_normalize.scss";
+.text-main-in-min-br {
+    max-width: 1116px;
+    @extend %pos-cent-marg;
+    @include main-text;
+}
+
+.wrp-line-in-min-br {
+    @extend %pos-cent-marg;
+    max-width: 1440px;
+    padding-top: 40px;
+}
+
+.line-in-min-br {
+    border-top: $line-grey-col;
+    margin-bottom: 40px;
+}
+
+.text-top-in-min {
+    @include main-text;
+    font-size: 36px;
+}
+
+.wrp-advantages-in-min {
+    
+}
+
+.box-adv-in-min {
+@include box-advantages;
+}

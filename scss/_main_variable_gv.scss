@@ -48,3 +48,16 @@ $line-grey-col: 1px solid #c4c4c4;
   border: 1px solid $color-main;
   cursor: pointer;
 }
+
+@mixin main-text {
+  font-family: $font-roboto-reg;
+  font-size: 18px;
+  text-align: center;
+}
+
+@mixin box-advantages {
+  width: 262px;
+  min-height: 216px;
+  border: $border-grey;
+  border-radius: 8px;
+}
