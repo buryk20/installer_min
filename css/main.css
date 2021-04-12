@@ -566,10 +566,12 @@ label {
   max-width: 640px;
   font-size: 18px;
   line-height: 1.4;
+  z-index: 5;
 }
 
 .sows-text-in-min > img {
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: 4;
 }
