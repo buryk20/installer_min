@@ -18,11 +18,18 @@ article.fluid-banner-br {
 }
 
 .img-wrapper-br {
+  max-height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
+  width: 100%;
   overflow: hidden;
+}
+
+.img-wrapper-br > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 section.banner-info-wrap-br {
@@ -52,4 +59,51 @@ div.banner-info-br {
   font-size: 36px;
   text-transform: uppercase;
   background: #0000006e;
+}
+
+@media (max-width: 1200px) {
+  .text-ban-br {
+  font-size: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .text-ban-br {
+  font-size: 26px;
+  padding: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .img-wrapper-br > img {
+    width: 140%;
+    max-width: 140%;
+  }
+}
+
+@media (max-width: 700px) {
+  .img-wrapper-br > img {
+    width: 160%;
+    max-width: 160%;
+  }
+  .text-ban-br {
+    font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+  .img-wrapper-br > img {
+    width: 180%;
+    max-width: 180%;
+  }
+  .text-ban-br {
+    font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+  
+  .text-ban-br {
+    max-width: 100%;
+    }
 }

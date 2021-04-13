@@ -26,6 +26,10 @@
   font-size: 36px;
 }
 
+.wrp-padd-in-min {
+  padding: 0 16px;
+}
+
 .wrp-advantages-in-min {
   @extend %pos-cent-marg;
   max-width: 1144px;
@@ -148,11 +152,11 @@
 .instal-img-in-min {
   position: absolute;
   top: -115px;
-  right: -270px;
+  right: -155px;
 }
 
 .instal-text-in-min {
-  max-width: 100%;
+  width: 100%;
   display: table;
   box-shadow: $block-shadow;
   @extend %text-main;
@@ -280,4 +284,119 @@
   bottom: 0;
   right: 0;
   z-index: 4;
+}
+
+.wrp-cooperation-mob-in-min {
+  display: none;
+}
+
+.wrp-cooperation-mob-in-min > div {
+  @extend %pos-cent-marg;
+  max-width: 400px;
+  padding: 0 16px;
+  text-align: center;
+  @extend %text-main;
+}
+
+.wrp-cooperation-mob-in-min > div > h3 {
+  padding-top: 15px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.wrp-cooperation-mob-in-min > div > p {
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+@media (max-width: 1164px) {
+  .instal-img-in-min {
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+  .instal-text-in-min {
+    box-shadow: none;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .instal-text-in-min > h3 {
+    margin-bottom: 20px;
+    margin-right: inherit;
+    text-align: center;
+  }
+  .instal-text-in-min > p {
+    text-align: center;
+  }
+  .instal-text-in-min > img {
+    margin-bottom: 30px;
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 1034px) {
+  
+  .coop-img-wrp-in-min > img {
+    display: none;
+  }
+  .wrp-advantages-in-min {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 850px) {
+  .coop-img-wrp-in-min {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 830px) {
+  .wrp-cooperation-mob-in-min {
+    margin-bottom: 30px;
+    display: block;
+  }
+  .wrp-cooperation-in-min {
+    display: none;
+  }
+  .sale-wrp-in-min {
+    margin: 0 16px 30px 16px;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .sale-text-in-min {
+    text-align: center;
+  }
+  .sale-btm-in-min {
+    margin-left: auto;
+    margin-bottom: 55px;
+  }
+  .coop-wrp-in-min > button {
+    margin-bottom: 30px;
+  }
+  .res-text-in-min {
+    padding-left: 0;
+    text-align: center;
+  }
+  .text-main-in-min-br {
+    padding: 0 16px;
+  } 
+}
+
+@media (max-width: 423px) {
+  .coop-img-wrp-in-min > img {
+    margin-bottom: 16px;
+    display: flex;
+    top: auto;
+    transform: rotate(90deg);
+  }
+  .coop-img-wrp-in-min {
+    flex-direction: column;
+  }
+  .coop-icon-wrp-in-min {
+    margin-bottom: 16px;
+  }
 }
