@@ -269,6 +269,7 @@
   font-size: 20px;
   @extend %marg-bott;
   text-transform: uppercase;
+  z-index: 7;
 }
 
 .sows-text-in-min > p {
@@ -352,6 +353,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
   }
+  .sows-wrp-in-min{
+    display: none;
+  }
 }
 
 @media (max-width: 830px) {
@@ -363,12 +367,16 @@
     display: none;
   }
   .sale-wrp-in-min {
-    margin: 0 16px 30px 16px;
+    margin-bottom: 30px;
     align-items: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .sale-text-in-min {
     text-align: center;
+    padding-left: 0;
+  }
+  .sale-text-in-min > p {
+    font-size: 18px;
   }
   .sale-btm-in-min {
     margin-left: auto;
