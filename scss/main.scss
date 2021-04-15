@@ -379,6 +379,9 @@
   }
 }
 @media (max-width: 850px) {
+  .res-text-in-min > p {
+    font-size: 18px;
+  }
   .coop-img-wrp-in-min {
     justify-content: space-around;
     flex-wrap: wrap;
@@ -402,7 +405,7 @@
   .sale-wrp-in-min {
     margin-bottom: 30px;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .sale-text-in-min {
     text-align: center;
