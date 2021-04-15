@@ -338,6 +338,10 @@
   font-weight: 400;
 }
 
+.instal-mob-img-in-min {
+  display: none;
+}
+
 @media (max-width: 1164px) {
   .instal-img-in-min {
     position: relative;
@@ -362,7 +366,12 @@
   .instal-text-in-min > img {
     width: auto;
     margin-bottom: 30px;
-    padding-left: 60px;
+  }
+  .instal-img-in-min{
+    display: none;
+  }
+  .instal-mob-img-in-min {
+    display: block;
   }
 }
 
