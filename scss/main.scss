@@ -311,6 +311,33 @@
   padding-bottom: 15px;
   font-size: 18px;
 }
+
+.sows-mob-wrp-in-min {
+  display: none;
+}
+
+.sows-text-mob-in-min {
+  max-width: 375px;
+  padding: 37px 16px 0 16px;
+  @extend %pos-cent-marg;
+  font-family: $font-roboto-reg;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sows-text-mob-in-min > h5 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.sows-text-mob-in-min > p {
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 @media (max-width: 1164px) {
   .instal-img-in-min {
     position: relative;
@@ -339,7 +366,10 @@
 }
 
 @media (max-width: 1034px) {
-  
+  .sale-wrp-in-min {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
   .coop-img-wrp-in-min > img {
     display: none;
   }
@@ -355,6 +385,9 @@
   }
   .sows-wrp-in-min{
     display: none;
+  }
+  .sows-mob-wrp-in-min {
+    display: block;
   }
 }
 

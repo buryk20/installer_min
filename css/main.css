@@ -30,7 +30,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-.input-inline, .input-wrapper p, .button-in, .text-main-in-min-br, .wrp-line-in-min-br, .wrp-advantages-in-min, .sale-btm-in-min, .sale-wrp-in-min, .wrp-cooperation-in-min, .instal-wrp-in-min, .coop-img-wrp-in-min, .coop-wrp-in-min > button, .wrp-cooperation-mob-in-min > div {
+.input-inline, .input-wrapper p, .button-in, .text-main-in-min-br, .wrp-line-in-min-br, .wrp-advantages-in-min, .sale-btm-in-min, .sale-wrp-in-min, .wrp-cooperation-in-min, .instal-wrp-in-min, .coop-img-wrp-in-min, .coop-wrp-in-min > button, .wrp-cooperation-mob-in-min > div, .sows-text-mob-in-min {
   margin-left: auto;
   margin-right: auto;
 }
@@ -296,7 +296,7 @@ input[type="text"]::placeholder {
     margin-bottom: 0;
   }
   .input-style {
-    min-width: 320px;
+    min-width: 290px;
     margin-bottom: 32px;
   }
   .input-w + .input-w {
@@ -777,6 +777,31 @@ label {
   font-size: 18px;
 }
 
+.sows-mob-wrp-in-min {
+  display: none;
+}
+
+.sows-text-mob-in-min {
+  max-width: 375px;
+  padding: 37px 16px 0 16px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sows-text-mob-in-min > h5 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.sows-text-mob-in-min > p {
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 @media (max-width: 1164px) {
   .instal-img-in-min {
     position: relative;
@@ -813,6 +838,10 @@ label {
 }
 
 @media (max-width: 1034px) {
+  .sale-wrp-in-min {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
   .coop-img-wrp-in-min > img {
     display: none;
   }
@@ -833,6 +862,9 @@ label {
   }
   .sows-wrp-in-min {
     display: none;
+  }
+  .sows-mob-wrp-in-min {
+    display: block;
   }
 }
 
