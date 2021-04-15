@@ -832,6 +832,7 @@ label {
     text-align: center;
   }
   .instal-text-in-min > img {
+    width: auto;
     margin-bottom: 30px;
     padding-left: 60px;
   }
