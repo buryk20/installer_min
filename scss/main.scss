@@ -9,6 +9,12 @@
   @include main-text;
 }
 
+.coop-wrp-in-min > .sale-btm-in-min {
+  max-width: 336px;
+  padding: 22px 20px;
+  font-size: 36px;
+}
+
 .wrp-line-in-min-br {
   @extend %pos-cent-marg;
   max-width: 1440px;
@@ -338,7 +344,6 @@
   font-weight: 400;
 }
 
-
 .instal-mob-img-in-min {
   display: none;
 }
@@ -368,7 +373,7 @@
     width: auto;
     margin-bottom: 30px;
   }
-  .instal-img-in-min{
+  .instal-img-in-min {
     display: none;
   }
   .instal-mob-img-in-min {
@@ -397,7 +402,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  .sows-wrp-in-min{
+  .sows-wrp-in-min {
     display: none;
   }
   .sows-mob-wrp-in-min {
@@ -438,11 +443,15 @@
   }
   .text-main-in-min-br {
     padding: 0 16px;
-  } 
+  }
+  .coop-wrp-in-min > .sale-btm-in-min {
+    max-width: 173px;
+    padding: 8px 13px;
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 423px) {
-
   .coop-img-wrp-in-min > img {
     margin-bottom: 16px;
     display: flex;
