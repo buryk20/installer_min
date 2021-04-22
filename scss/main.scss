@@ -32,10 +32,6 @@
   font-size: 36px;
 }
 
-.wrp-padd-in-min {
-  padding: 0 16px;
-}
-
 .wrp-advantages-in-min {
   @extend %pos-cent-marg;
   max-width: 1144px;
@@ -50,6 +46,7 @@
 
 .box-adv-in-min p {
   width: 100%;
+  line-height: 20px;
 }
 
 .advantages-icon-in-min {
